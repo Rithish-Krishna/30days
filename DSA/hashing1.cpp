@@ -16,9 +16,9 @@ int main(){
 	}
 	cout<<"Number of occurence of each number\n";
 	int l = 0;
-	int ln = 0;
+	int ln[n];
 	int s = 9999999;
-	int sn = 0;
+	int sn[n];
 	for(auto x: mp){
 		if(x.second>l){
 			ln = x.first;
